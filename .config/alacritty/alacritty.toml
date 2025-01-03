@@ -1,0 +1,14 @@
+[general]
+import = [
+"~/.config/alacritty/catppuccin.toml"
+]
+live_config_reload = true
+
+[window]
+opacity=0.85
+blur = true
+padding = { x = 3, y = 3 }
+
+[font]
+normal = { family = "Hack Nerd Font", style = "Regular" }
+size = 12
