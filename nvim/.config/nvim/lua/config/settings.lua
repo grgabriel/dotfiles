@@ -33,3 +33,5 @@ vim.opt.filetype='on'
 vim.keymap.set("t", "<esc>", [[<C-\><C-n>]], {silent = true, noremap = true})
 vim.api.nvim_set_keymap("n", "<leader><leader>term", ':belowright split | terminal<CR>', 
     {noremap = true, silent=true})
+
+vim.keymap.set("n", "<leader>e", ':Explore<CR>', {noremap = true, silent=true})
