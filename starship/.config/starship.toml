@@ -1,7 +1,7 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
-[](surface0)\
+[ ](surface0)\
 $os\
 $username\
 [](bg:lavender fg:surface0)\
@@ -21,9 +21,9 @@ $haskell\
 $python\
 [](fg:teal bg:blue)\
 $docker_context\
-[](fg:blue bg:purple)\
+[](fg:blue bg:flamingo)\
 $time\
-[ ](fg:purple)\
+[ ](fg:flamingo)\
 $line_break$character"""
 
 palette = 'catppuccin_mocha'
@@ -175,7 +175,7 @@ format = '[[ $symbol( $context) ](fg:#83a598 bg:color_bg3)]($style)'
 disabled = false
 time_format = "%R"
 style = "bg:peach"
-format = '[[  $time ](fg:mantle bg:purple)]($style)'
+format = '[[  $time ](fg:mantle bg:flamingo)]($style)'
 
 [line_break]
 disabled = false
